@@ -1,0 +1,711 @@
+[ 2017-03-29T22:19:39+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/14&_=1490797178303
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797178 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 14 ) AND ( `actionTime` <= '22:20:08' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 14 ) AND ( `number` = '20170329-269' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:19:45+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797184784
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797184 WHERE ( `id` = 2326 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:21:14' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:19:56+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797195881
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797195 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:21:25' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:20:08+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797206970
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797207 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:21:36' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:20:19+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797218047
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797218 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:21:48' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:20:30+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797229123
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797229 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:21:59' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:20:41+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797240208
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797240 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:22:10' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:20:52+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797251297
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797251 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:22:21' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-29T22:21:04+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797263088
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797263 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:22:33' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:21:16+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797275087
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797275 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:22:45' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:21:28+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797287087
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797287 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:22:57' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-29T22:21:40+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797299087
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797299 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:23:09' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:21:52+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797311087
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.009001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797311 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.011000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:23:21' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:22:04+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797323087
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797323 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:23:33' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:22:16+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797335086
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.007001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797335 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.007001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:23:45' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-29T22:22:28+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797347084
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.013001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797347 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.013001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.013001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:23:57' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:22:40+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797359085
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797359 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:24:09' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:22:52+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797371085
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.006000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797371 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.006000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.006001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:24:21' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.006001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-29T22:23:04+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797383084
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.008001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797383 WHERE ( `id` = 2326 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.008001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:24:33' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:23:16+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797395085
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797395 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:24:45' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:23:28+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/3&_=1490797407084
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.007000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490797407 WHERE ( `id` = 2326 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.007000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 3 ) AND ( `actionTime` <= '22:24:57' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.008000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 3 ) AND ( `number` = '20170329-079' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:24:02+08:00 ] 127.0.0.1 /index.php?s=/home/user/logined.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.012001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SELECT * FROM `gygy_params`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `username` = 'ceshi' ) AND ( `password` = 'cadc9f502a3bbd0ad93246e2af2c593e' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005000s ]
+SQL: INSERT INTO `gygy_member_session` (`uid`,`username`,`session_key`,`loginTime`,`accessTime`,`loginIP`) VALUES (286,'ceshi',0,1490797441,1490797441,2130706433) [ RunTime:0.001000s ]
+SQL: UPDATE `gygy_member_session` SET `isOnLine`=0 WHERE ( uid=286 and id<2328 ) [ RunTime:0.003000s ]
+
+[ 2017-03-29T22:56:31+08:00 ] 127.0.0.1 /index.php?s=/home/user/logined.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.013001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SELECT * FROM `gygy_params`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `username` = 'ceshi' ) AND ( `password` = 'cadc9f502a3bbd0ad93246e2af2c593e' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: INSERT INTO `gygy_member_session` (`uid`,`username`,`session_key`,`loginTime`,`accessTime`,`loginIP`) VALUES (286,'ceshi',0,1490799390,1490799390,2130706433) [ RunTime:0.000000s ]
+SQL: UPDATE `gygy_member_session` SET `isOnLine`=0 WHERE ( uid=286 and id<2329 ) [ RunTime:0.002000s ]
+
+[ 2017-03-29T22:56:59+08:00 ] 127.0.0.1 /index.php?s=/home/recharge/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.016001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490799418 WHERE ( `id` = 2329 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.013000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: para D:\webroot\lafei\Application\Home\Controller\RechargeController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `gygy_member_recharge` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `gygy_member_recharge` WHERE ( `rechargeId` = 778586 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `gygy_member_recharge` (`rechargeId`,`actionTime`,`uid`,`username`,`actionIP`,`mBankId`,`info`,`amount`) VALUES (778586,1490799418,286,'ceshi',2130706433,13,'在线支付',100) [ RunTime:0.001000s ]
+
+[ 2017-03-29T22:57:03+08:00 ] 127.0.0.1 /index.php?s=/home/recharge/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.008001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490799422 WHERE ( `id` = 2329 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: para D:\webroot\lafei\Application\Home\Controller\RechargeController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `gygy_member_recharge` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `gygy_member_recharge` WHERE ( `rechargeId` = 330152 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `gygy_member_recharge` (`rechargeId`,`actionTime`,`uid`,`username`,`actionIP`,`mBankId`,`info`,`amount`) VALUES (330152,1490799422,286,'ceshi',2130706433,13,'在线支付',100) [ RunTime:0.000000s ]
+
+[ 2017-03-29T22:57:08+08:00 ] 127.0.0.1 /index.php?s=/home/recharge/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.014001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490799427 WHERE ( `id` = 2329 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.012001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: para D:\webroot\lafei\Application\Home\Controller\RechargeController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `gygy_member_recharge` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `gygy_member_recharge` WHERE ( `rechargeId` = 139907 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `gygy_member_recharge` (`rechargeId`,`actionTime`,`uid`,`username`,`actionIP`,`mBankId`,`info`,`amount`) VALUES (139907,1490799427,286,'ceshi',2130706433,13,'在线支付',100) [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:26+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/5&_=1490801604996
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.004000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801605 WHERE ( `id` = 2329 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` <= '23:33:34' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 5 ) AND ( `number` = '20170329-414' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:37+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/5&_=1490801616098
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.006000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801616 WHERE ( `id` = 2329 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.005001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` <= '23:33:46' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004001s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 5 ) AND ( `number` = '20170329-414' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:41+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/5&_=1490801620428
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.011000s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801620 WHERE ( `id` = 2329 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.011001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` <= '23:33:50' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 5 ) AND ( `number` = '20170329-414' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:45+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/14&_=1490801624612
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801624 WHERE ( `id` = 2329 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 14 ) AND ( `actionTime` <= '23:34:14' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.005000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 14 ) AND ( `number` = '20170329-283' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:50+08:00 ] 127.0.0.1 /index.php?s=/home/index/getLastKjData/type/5&_=1490801629515
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.007001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801629 WHERE ( `id` = 2329 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.006000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.006001s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` <= '23:33:59' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `gygy_data` [ RunTime:0.004000s ]
+SQL: SELECT `data` FROM `gygy_data` WHERE ( `type` = 5 ) AND ( `number` = '20170329-414' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Think\Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-29T23:33:54+08:00 ] 127.0.0.1 /index.php?s=/home/index/getQiHao/type/5
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.011001s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1490801633 WHERE ( `id` = 2329 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.007001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\webroot\lafei\Application\Home\Controller\HomeController.class.php on line 118 and defined D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where D:\webroot\lafei\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_type` [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gygy_data_time` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` > '23:34:03' ) ORDER BY actionTime LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` <= '23:34:03' ) ORDER BY actionTime desc LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `gygy_data_time` WHERE ( `type` = 5 ) AND ( `actionTime` > '23:34:03' ) ORDER BY actionTime LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT `data_ftime` FROM `gygy_type` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+

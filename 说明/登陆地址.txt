@@ -1,0 +1,21 @@
+后台：/admin.php?s=/admin/public/login.html  admin admin888
+手机：/index.php?s=/mobile/user/login.html
+
+如果需要后台不用开奖器 手动添加开奖号码 则需要PHP变量
+此程序必须用PHP5.3版本
+计算机 -属性-高级设置-环境变量-系统变量-path值编辑-在最后面加（；）号以及PHP5.3文件夹的地址，如：【;D:\phpStudy\php53】
+然后
+(1)将php_v8js.dll放到PHP安装目录下的ext目录
+(2)打开php.ini文件，查找extension_dir,在这一行的下面新建一行，填写extension=php_v8js.dll并保存
+(3)将v8.dll复制到系统目录，一般是是C:/windows/system32，如果是64位win7，需要复制到C:/windows/SysWOW64目录下
+(4)重启apache服务
+
+
+
+云南融首经济信息咨询有限公司
+地址：云南省昆明市盘龙区北京路736号空军招待所503、504、515号
+
+登陆窗口背景图、主窗口背景图
+D:\webroot\lafei\html\Public\Home\images\login
+
+D:\webroot\lafei\html\Public\Home\images\frame

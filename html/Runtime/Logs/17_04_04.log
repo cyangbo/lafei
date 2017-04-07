@@ -1,0 +1,176 @@
+[ 2017-04-04T09:34:46+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/user/logined.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.002551s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.002675s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `username` = 'admin' ) AND ( `password` = 'f2c44723f1cd8c3301c4089c69f4ddff' ) LIMIT 1   [ RunTime:0.001882s ]
+
+[ 2017-04-04T09:34:53+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/user/logined.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.002376s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+
+[ 2017-04-04T09:35:08+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/user/logined.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.002542s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.001120s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `username` = 'admin' ) AND ( `password` = '56f1681f1e8151862e76e7f4e98eeea2' ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.001707s ]
+SQL: INSERT INTO `gygy_member_session` (`uid`,`username`,`session_key`,`loginTime`,`accessTime`,`loginIP`) VALUES (1,'admin',0,1491269708,1491269708,2130706433) [ RunTime:0.001123s ]
+SQL: UPDATE `gygy_member_session` SET `isOnLine`=0 WHERE ( uid=1 and id<2336 ) [ RunTime:0.001406s ]
+
+[ 2017-04-04T09:35:35+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/cash/cash.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005694s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1491269735 WHERE ( `id` = 2336 ) [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.001234s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000411s ]
+
+[ 2017-04-04T09:36:11+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/cash/cash.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.005789s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1491269771 WHERE ( `id` = 2336 ) [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.000632s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.001352s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000358s ]
+
+[ 2017-04-04T09:39:50+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/cash/cash.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.003302s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1491269990 WHERE ( `id` = 2336 ) [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.000729s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.000926s ]
+SQL: SELECT * FROM `gygy_members` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2017-04-04T09:54:48+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/index/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.006196s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1491270888 WHERE ( `id` = 2336 ) [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.000641s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.000987s ]
+SQL: SELECT `username`,`nickname`,`enable`,`coin` FROM `gygy_members` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2017-04-04T09:54:48+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/index/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gygy_member_session` [ RunTime:0.002613s ]
+SQL: UPDATE `gygy_member_session` SET `accessTime`=1491270888 WHERE ( `id` = 2336 ) [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `gygy_params` [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Applications/MAMP/htdocs/lafei/Application/Home/Controller/HomeController.class.php on line 118 and defined /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1501 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1509 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1512 行.
+NOTIC: [8] Undefined variable: where /Applications/MAMP/htdocs/lafei/ThinkPHP/Library/Think/Model.class.php 第 1520 行.
+SQL: SHOW COLUMNS FROM `gygy_members` [ RunTime:0.001071s ]
+SQL: SELECT `username`,`nickname`,`enable`,`coin` FROM `gygy_members` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2017-04-04T22:59:45+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:00:11+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:00:32+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:01:54+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:02:37+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:04:58+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:05:23+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:07:33+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:07:34+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:09:41+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
+[ 2017-04-04T23:56:03+08:00 ] 127.0.0.1 /lafei/html/index.php?s=/home/recharge/p_result.html?P_UserId=d7f643dc-da60-42b0-bbe8-550d4ce4df8a&P_OrderId=20170404223312&P_SMPayId=y6nhaFWzSIl&P_FaceValue=1.00&P_ChannelId=32&P_PayMoney=1.00&P_Subject=%E6%B5%8B%E8%AF%95&P_Price=1.00&P_Quantity=null&P_Description=null&P_Notic=null&P_ErrCode=0&P_ErrMsg=null&P_PostKey=4091475104bc408eeb9b288b4521fc60&attach=
+ERR: 非法操作:p_result.html?p_userid=d7f643dc-da60-42b0-bbe8-550d4ce4df8a
+
